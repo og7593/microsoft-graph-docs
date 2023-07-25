@@ -21,9 +21,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type      | Permissions (from least to most privileged)              |
 |:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All    |
+|Delegated (work or school account) | User.DeleteRestore.All, User.ReadWrite.All    |
 |Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All |
+|Application | User.DeleteRestore.All, User.ReadWrite.All |
 
 The calling user must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference?toc=%2Fgraph%2Ftoc.json):
 

@@ -8,7 +8,7 @@ ms.localizationpriority: high
 ms.topic: reference
 ms.prod: "applications"
 ms.custom: graphiamtop20, scenarios:getting-started
-ms.date: 06/06/2023
+ms.date: 07/25/2023
 ---
 
 # Microsoft Graph permissions reference
@@ -2925,6 +2925,7 @@ _ThreatIntelligence.Read.All_: Get host reputation information, without a signed
 | _User.ReadWrite_ |    Read and write access to user profile | Allows the app to read the signed-in user's full profile. It also allows the app to update the signed-in user's profile information on their behalf. | No | Yes |
 | _User.ReadBasic.All_ |    Read all users' basic profiles | Allows the app to read a basic set of profile properties of other users in your organization on behalf of the signed-in user. This includes display name, first and last name, email address, open extensions and photo. Also allows the app to read the full profile of the signed-in user. | No | No |
 | _User.Read.All_  |     Read all users' full profiles           | Allows the app to read the full set of profile properties, reports, and managers of other users in your organization, on behalf of the signed-in user. | Yes | No |
+| _User.DeleteRestore.All_ |    Delete and restore users | Allows the app to delete and restore all users, on behalf of the signed-in user. | Yes | No |
 | _User.ReadWrite.All_ |     Read and write all users' full profiles | Allows the app to read and write the full set of profile properties, reports, and managers of other users in your organization, on behalf of the signed-in user. Also allows the app to create and delete users as well as reset user passwords on behalf of the signed-in user. | Yes | No |
 | _User.Invite.All_  |     Invite guest users to the organization | Allows the app to invite guest users to your organization, on behalf of the signed-in user. | Yes | No |
 | _User.EnableDisableAccount.All_       |    Enable and disable user accounts | Allows the app to enable and disable users' accounts, on behalf of the signed-in user.| Yes | No |
@@ -2943,6 +2944,7 @@ _ThreatIntelligence.Read.All_: Get host reputation information, without a signed
 | _User.Invite.All_  |     Invite guest users to the organization | Allows the app to invite guest users to your organization, without a signed-in user. | Yes |
 | _User.EnableDisableAccount.All_       |    Enable and disable user accounts | Allows the app to enable and disable users' accounts, without a signed-in user.| Yes |
 | _User.Export.All_       |    Export users' data | Allows the app to export organizational users' data, without a signed-in user.| Yes |
+| _User.DeleteRestore.All_ |    Delete and restore all users | AAllows the app to delete and restore all users, without a signed-in user. | Yes |
 | _User.ManageIdentities.All_       |    Manage all user identities | Allows an application to read, update and delete identities that are associated with a user's account, without a signed in user. This controls which identities users can sign-in with. |  Yes |
 | _User-LifeCycleInfo.Read.All_       |    Read all users' lifecycle information | Allows the app to read the lifecycle information like employeeLeaveDateTime of users in your organization, without a signed-in user. |  Yes |
 | _User-LifeCycleInfo.ReadWrite.All_       |    Read and write all users' lifecycle information | Allows the app to read and write the lifecycle information like employeeLeaveDateTime of users in your organization, without a signed-in user. |  Yes |
