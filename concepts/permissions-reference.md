@@ -436,6 +436,22 @@ None.
 > **Note:** For request examples, see [Create call](/graph/api/application-post-calls?view=graph-rest-beta&preserve-view=true).
 
 For more complex scenarios involving multiple permissions, see [Permission scenarios](#permission-scenarios).
+## CallEvent permissions
+
+#### Delegated permissions
+
+None.
+
+<br/>
+
+#### Application permissions
+
+|Permission                    |Display String                            |Description       |Admin Consent Required |
+|:-----------------------------|:-----------------------------------------|:-----------------|:----------------------|
+|_CallEvents.Read.All_|Read all call events|Allows the app to read call event information for all users in your organization, without a signed-in user. |Yes|
+
+### Example usage
+- _CallEvents.Read.All_: Subscribe to all call events for a user in your organization (POST /v1.0/subscriptions).
 
 ## Call records permissions
 
